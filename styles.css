@@ -545,3 +545,22 @@ input[type=submit]:hover{
     
 }
 
+.pas-fini{
+    margin-top: -10vh;
+    width: 70vw;
+   text-align: left;
+    font-family: 'PT Sans',sans serif;
+    color: #7fc5d1;
+    font-size: 3vh;
+}
+.retour {
+    position: fixed;
+    top: 15px;
+    left: 25px;
+    width: 10vw;
+    margin: 0;
+    font-family: 'PT Sans', sans serif;
+  }
+  
+
+

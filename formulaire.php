@@ -1,5 +1,5 @@
 <?php 
-$db = new PDO('mysql:host=sqletud.u-pem.fr;iasma_db=', 'iles91', '', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+$db = new PDO ('mysql:host=sqletud.u-pem.fr;dbname=iasma_db', 'iasma', 'iles91', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 if ($_SERVER['REQUEST_METHOD'] == 'GET'){
 $sql = "INSERT INTO contact (nom, prenom, email, comment) VALUES (:nom, :prenom, :email, :comment)";
 $attributes = array(
